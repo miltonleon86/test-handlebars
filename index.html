@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="entry-template" class="entry">
+        <h1>{{title}}</h1>
+        <div class="body">
+            {{body}}
+        </div>
+        <div class="sub_object">
+            {{offer.important.id}}
+            {{offer.important.name}}
+        </div>
+        <div class="sub_object">
+            {{offer.less-important.id}}
+            {{offer.less-important.name}}
+        </div>
+    </div>
+</body>
+<script src="js/handlebars-v4.0.12.js"></script>
+<script src="js/test.js"></script>
+</html>
